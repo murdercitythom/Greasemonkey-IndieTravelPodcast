@@ -3,8 +3,10 @@
 // @namespace  http://thomshutt.com/greasemonkey
 // @version    0.1
 // @description Reminds you to use the ITP Amazon link 
-// @include    *amazon.*
-// @exclude    *amazon.*indietravel*
+// @include    http*://amazon.*
+// @include    http*://www.amazon.*
+// @exclude    http*://*amazon.*indietravel*
+// @exclude    http*://www.*.amazon.*
 // @copyright  2013 Thom Shutt 
 // ==/UserScript==
 
